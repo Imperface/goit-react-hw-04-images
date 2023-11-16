@@ -1,0 +1,21 @@
+.imageGalleryItem {
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+.image:hover {
+  transform: scale(1.05);
+  cursor: zoom-in;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  transition: all 0.3s;
+}

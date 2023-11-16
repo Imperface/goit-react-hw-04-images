@@ -1,0 +1,31 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000cc;
+  cursor: pointer;
+}
+
+.modal {
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 24px);
+}
+.modal:hover {
+  cursor: default;
+}
+.image {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  max-height: 700px;
+}
